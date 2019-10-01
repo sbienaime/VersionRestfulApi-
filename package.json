@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC"
-}
-"scripts": {
-   "dev": "tsc-watch --onSuccess \"node ./dist/server.js\""
 }
